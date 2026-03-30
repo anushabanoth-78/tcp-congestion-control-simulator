@@ -1,60 +1,114 @@
-# TCP Congestion Control Simulator
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP Congestion Control Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 5px;
+            display: block;
+            margin: 10px 0;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
 
-This tool is designed to help students and enthusiasts understand and visualize the congestion control algorithms in Transmission Control Protocol (TCP), specifically the Slow Start and Congestion Avoidance mechanisms.
+    <h1>TCP Congestion Control Simulator</h1>
 
-## Project Overview
+    <p>
+        This project is an interactive simulator designed to visualize 
+        <b>TCP congestion control algorithms</b> such as Slow Start, 
+        Congestion Avoidance, Fast Retransmit, and Fast Recovery.
+    </p>
 
-This simulator provides an interactive way to learn about TCP's congestion control algorithms. By simulating packet transfers and visualizing the impact of network conditions, users can gain a deeper understanding of how TCP manages congestion to maintain efficient data transfer. The primary focus is on the Slow Start, Congestion Avoidance, Fast Retransmit and Fast Recovery algorithms.
+    <h2>🚀 Project Overview</h2>
+    <p>
+        The simulator helps users understand how TCP manages congestion 
+        by dynamically adjusting the <b>congestion window (cwnd)</b> 
+        based on packet delivery and loss.
+    </p>
 
-## Features
+    <h2>✨ Features</h2>
+    <ul>
+        <li>Interactive input for <b>ssthresh</b></li>
+        <li>Manual packet state selection (Delivered / Lost)</li>
+        <li>Real-time visualization of packet transmission</li>
+        <li>Implements:
+            <ul>
+                <li>Slow Start</li>
+                <li>Congestion Avoidance</li>
+                <li>Fast Retransmit</li>
+                <li>Fast Recovery</li>
+            </ul>
+        </li>
+    </ul>
 
-- **Interactive Input**: Users can enter the value of the `ssthresh` (slow start threshold) to customize the simulation.
-- **Packet State Selection**: Before each packet transfer, users can select whether the packet will be successfully delivered or lost.
-- **Real-Time Visualization**: The simulator displays the sequence numbers of packets sent and acknowledgments received per unit RTT (Round-Trip Time).
-- **Educational Purpose**: This project aims to enhance the learning experience for undergraduate students studying computer networks by providing a practical tool to visualize TCP behavior under different network conditions.
+    <h2>🛠 Technologies Used</h2>
+    <ul>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>HTML & CSS</li>
+    </ul>
 
-## How to Use
+    <h2>▶️ Getting Started</h2>
 
-1. **Enter ssthresh**: Start by entering the desired value for `ssthresh` in the input field.
-2. **Select Packet State**: Before each packet transfer, select the future state of the packet as either "Delivered" or "Lost".
-3. **Simulate**: The simulator will run the selected TCP algorithm (Slow Start or Congestion Avoidance) and display the results in real-time, showing the sequence numbers and acknowledgments.
+    <p><b>1. Clone the repository:</b></p>
+    <code>git clone https://github.com/anushabanoth-78/tcp-congestion-control-simulator.git</code>
 
-## Deployment
+    <p><b>2. Navigate to folder:</b></p>
+    <code>cd tcp-congestion-control-simulator/tcp_congestion</code>
 
-Visit the deployed site [here](https://github.com/anushabanoth-78/tcp-congestion-control-simulator) to start simulating TCP congestion control algorithms.
+    <p><b>3. Install dependencies:</b></p>
+    <code>npm install</code>
 
-## Technologies used
+    <p><b>4. Run the project:</b></p>
+    <code>npm start</code>
 
-The simulator is built using React.js for a responsive and interactive user experience. The logic for the TCP algorithms is implemented in JavaScript to provide real-time feedback and visualization.
+    <p><b>5. Open in browser:</b></p>
+    <code>http://localhost:3000</code>
 
-## Getting Started
+    <h2>📊 Output</h2>
+    <ul>
+        <li>Visualization of congestion window behavior</li>
+        <li>Packet transmission tracking</li>
+        <li>TCP response to packet loss</li>
+    </ul>
 
-To get started with the project locally:
+    <h2>🎯 Learning Outcomes</h2>
+    <ul>
+        <li>Understanding TCP congestion control</li>
+        <li>Difference between Slow Start and Congestion Avoidance</li>
+        <li>Impact of packet loss</li>
+    </ul>
 
-1. **Fork and Clone the Repository**:
-   ```bash
-   git clone https://github.com/anushabanoth-78/tcp-congestion-control-simulator
-   ```
+    <h2>🔮 Future Improvements</h2>
+    <ul>
+        <li>Add graphical charts (cwnd vs time)</li>
+        <li>Support TCP Reno, Tahoe</li>
+        <li>Deploy using GitHub Pages</li>
+    </ul>
 
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   (use project name as tcp-congestion)
-   ```
+    <h2>🙌 Acknowledgment</h2>
+    <p>
+        This project is developed for educational purposes to help students 
+        understand TCP congestion control concepts.
+    </p>
 
-3. **Run the Simulator**:
-   ```bash
-   cd tcp-congestion
-   npm start
-   ```
+    <h2>📜 License</h2>
+    <p>MIT License</p>
 
-4. **Open in Browser**:
-   Open [http://localhost:3000](http://localhost:3000) in your web browser to start using the simulator.
-
-
-## Acknowledgments
-
-This project was created to support educational efforts in computer networking courses, helping students visualize and understand TCP congestion control algorithms.
-
----
-
+</body>
+</html>
