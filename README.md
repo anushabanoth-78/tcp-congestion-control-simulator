@@ -4,27 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TCP Congestion Control Simulator</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 40px;
             line-height: 1.6;
+            background-color: #f9f9f9;
         }
         h1, h2 {
             color: #2c3e50;
         }
         code {
-            background: #f4f4f4;
-            padding: 5px;
+            background: #eee;
+            padding: 6px;
             display: block;
             margin: 10px 0;
+            border-radius: 5px;
         }
         ul {
             margin-left: 20px;
         }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
+
 <body>
+
+<div class="container">
 
     <h1>TCP Congestion Control Simulator</h1>
 
@@ -109,6 +121,8 @@
 
     <h2>📜 License</h2>
     <p>MIT License</p>
+
+</div>
 
 </body>
 </html>
