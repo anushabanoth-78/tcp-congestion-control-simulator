@@ -21,7 +21,7 @@ This simulator provides an interactive way to learn about TCP's congestion contr
 
 ## Deployment
 
-Visit the deployed site [here](https://nandika-a.github.io/Congestion-Control-Simulator/) to start simulating TCP congestion control algorithms.
+Visit the deployed site [here](https://github.com/anushabanoth-78/tcp-congestion-control-simulator) to start simulating TCP congestion control algorithms.
 
 ## Technologies used
 
@@ -33,7 +33,7 @@ To get started with the project locally:
 
 1. **Fork and Clone the Repository**:
    ```bash
-   git clone https://github.com/Nandika-A/Congestion-Control-Simulator.git
+   git clone https://github.com/anushabanoth-78/tcp-congestion-control-simulator
    ```
 
 2. **Install Dependencies**:
