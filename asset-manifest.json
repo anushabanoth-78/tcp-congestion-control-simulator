@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tcp-congestion-control-simulator/static/css/main.833eb17a.css",
+    "main.js": "/tcp-congestion-control-simulator/static/js/main.83395c9f.js",
+    "static/js/239.7e253672.chunk.js": "/tcp-congestion-control-simulator/static/js/239.7e253672.chunk.js",
+    "static/js/213.9a79c5b7.chunk.js": "/tcp-congestion-control-simulator/static/js/213.9a79c5b7.chunk.js",
+    "static/js/455.7c9cb493.chunk.js": "/tcp-congestion-control-simulator/static/js/455.7c9cb493.chunk.js",
+    "static/js/453.3dbed50e.chunk.js": "/tcp-congestion-control-simulator/static/js/453.3dbed50e.chunk.js",
+    "index.html": "/tcp-congestion-control-simulator/index.html",
+    "main.833eb17a.css.map": "/tcp-congestion-control-simulator/static/css/main.833eb17a.css.map",
+    "main.83395c9f.js.map": "/tcp-congestion-control-simulator/static/js/main.83395c9f.js.map",
+    "239.7e253672.chunk.js.map": "/tcp-congestion-control-simulator/static/js/239.7e253672.chunk.js.map",
+    "213.9a79c5b7.chunk.js.map": "/tcp-congestion-control-simulator/static/js/213.9a79c5b7.chunk.js.map",
+    "455.7c9cb493.chunk.js.map": "/tcp-congestion-control-simulator/static/js/455.7c9cb493.chunk.js.map",
+    "453.3dbed50e.chunk.js.map": "/tcp-congestion-control-simulator/static/js/453.3dbed50e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.833eb17a.css",
+    "static/js/main.83395c9f.js"
+  ]
+}
