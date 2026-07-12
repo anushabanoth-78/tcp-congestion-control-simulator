@@ -1,23 +1,23 @@
-# 🚀 TCP Congestion Control Simulator
+#  TCP Congestion Control Simulator
 
 An interactive simulator to visualize how **TCP (Transmission Control Protocol)** manages network congestion using key algorithms such as **Slow Start**, **Congestion Avoidance**, **Fast Retransmit**, and **Fast Recovery**.
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 👉 https://anushabanoth-78.github.io/tcp-congestion-control-simulator/
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project provides a practical and visual way to understand TCP congestion control mechanisms.  
 It simulates packet transmission and dynamically adjusts the **congestion window (cwnd)** based on packet delivery and loss.
 
 ---
 
-## ✨ Features
+##  Features
 
 - Interactive input for **ssthresh (slow start threshold)**
 - Manual packet state selection (**Delivered / Lost**)
@@ -30,7 +30,7 @@ It simulates packet transmission and dynamically adjusts the **congestion window
 
 ---
 
-## 🧠 How to Use
+##  How to Use
 
 1. Enter the value of **ssthresh**
 2. Select packet state (**Delivered / Lost**)
@@ -39,7 +39,7 @@ It simulates packet transmission and dynamically adjusts the **congestion window
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - React.js  
 - JavaScript  
